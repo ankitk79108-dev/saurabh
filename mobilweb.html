@@ -1,0 +1,333 @@
+<html>
+<head>
+    <style>
+         *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+    font-family: Arial, sans-serif; 
+    background-color: pink;
+   }
+
+    .header{
+        display: flex;
+        width: 100%;
+        height: 90px;
+        border: 1px solid black;
+        align-items: center;
+        background-color: rgb(3, 203, 243);
+        
+    }
+     header img{
+        box-shadow: 0px 5px 15px;
+        border-radius: 50px;
+    }
+
+    .mobile{
+        width: 30%;
+        height: 90px;
+        /* border: 1px solid black ; */
+        align-items: center;
+        padding: 15px;
+        margin: 40px;
+        font-weight: bold;
+    }
+    .mobile span{
+        color: navy;
+    }
+    .nav {
+        display: flex;
+        justify-content: flex-end; 
+        width: 70%;
+        height: 90px;
+        
+        padding: 30px;
+        font-size: 20px;
+        gap: 25px;
+        font-weight: bold;
+    }
+
+    nav a{
+         text-decoration: none;
+        color: black;
+         margin-left: 20px; 
+    }
+    nav a:hover {
+        color: red;
+
+    }
+        
+    
+    
+    .ram{
+         height: 600px;
+        width: 100%;
+
+        background-image: url(image/mobile\ background.jpeg);
+        
+       
+         padding: 250px;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        color: white;
+        text-align: left;
+        text-shadow: 0px 10px 15px black;
+
+    }
+    .ram span{
+        color: yellow;
+    }
+
+     .admin{
+        text-align: center;
+        font-weight: bold;
+        margin: 20px;
+         padding: 20px; 
+         /* text-shadow: 0px 5px 15px red; */
+    } 
+    .admin{
+        transition: 1.3s;
+    }
+
+    .admin:hover{
+         transform: translateY(-10px );
+        text-shadow: 0px 10px 25px black;
+    }
+
+      
+
+    .card {
+        display: flex;
+        justify-content: center;
+         gap: 25px; 
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 20px;
+       
+    } 
+    .phone{
+        background-color: white;
+        width: 250px;
+        height: 400px;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0px 5px 15px black;
+    }
+
+    button{
+        background-color: rgb(144, 17, 144);
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        margin: 5px;
+    }
+    .oppo{
+        background-color: white;
+        width: 250px;
+        height: 370px;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0px 5px 15px black;
+    }
+    .phone{
+        transition: 0.3s;
+    }
+    .phone:hover{
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 25px black;
+    }
+
+    .oppo{
+        transition: 0.3s;
+    }
+    
+    .oppo:hover{
+        transform: translateY(-10px );
+        box-shadow: 0px 10px 25px black;
+    }
+
+    .boot{
+        /* align-items: center;
+        text-align: center; */
+        margin: 30px;
+
+    }
+
+    .contact {
+        padding: 5px;
+        font-weight: bold;
+        
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        height: 200px;
+        padding: 35px;
+        /* text-align: center; */
+    }
+
+
+    .footer img{
+        align-items: right;
+        text-align: right;
+    }
+
+
+
+</style>
+</head>
+<body>
+    <header>
+    <div class="header">
+
+       <div class="mobile">
+       <img src="image/logo mobile shop.avif" width="80px" height="65px">
+    </div>
+     <div class="nav">
+        <nav >
+            <a href="mobilweb.html">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="coffeehh.html">service</a>
+        </nav>
+     </div> 
+    </header>
+
+    <section id="home" >
+        <div class="ram">
+      <h3>Latest Smartphone</h3>
+      <h1>Big Deals. <span>Bigger Dreams</span></h1>
+      <br>
+      <h5>Get the letest mobile at the best price wuth easy EMI option,</h5>
+      
+     </div>
+    </section>
+       
+    <section id="menu" class="admin">
+         <h2>Fetured Products</h2>
+
+         <div class="card">
+            <div class="phone">
+                <img src="image/iphone 18.webp" height="250px" width="200px">
+                <h3>iPhone 18</h3>
+                <p>1,50,000</p>
+                <button>Order now</button>
+
+            </div>
+            <div class="phone">
+                <img src="image/oppo x9s ultra.webp" height="250px" width="200px">
+                <h3>OPPO X9S ultra</h3>
+                <p>89,999</p>
+                <button>Order now</button>
+
+            </div>
+            <div class="phone">
+                <img src="image/vivo 300ultra.webp" height="245px" width="200px">
+                <h3>VIVO 300x ultra</h3>
+                <p>95,000</p>
+                <button>Order now</button>
+
+            </div>
+            <div class="phone">
+                <img src="image/realme 16pro.webp" height="250px" width="200px">
+                <h3>Realme 16pro</h3>
+                <p>75,999</p>
+                <button>Order now</button>
+
+            </div>
+            <div class="phone">
+                <img src="image/one pluse.webp" height="250px" width="200px">
+                <h3>One Plus</h3>
+                <p>81,000</p>
+                <button>Order now</button>
+
+            </div>
+            <!-- <section>laptop</section> -->
+            <div class="oppo">
+                <img src="image/asus tuf gaming.webp" height="250px" width="200px">
+                <h3>asus tuf</h3>
+                <p>70,999</p>
+                <button>Order now</button>
+
+            </div>
+            <div class="oppo">
+                <img src="image/Hp victus.webp" height="250px" width="200px">
+                <h3>Hp victus</h3>
+                <p>75,999</p>
+                <button>Order now</button>
+
+            </div>
+            <div class="oppo">
+                <img src="image/Hp mso 15.webp" height="250px" width="200px">
+                <h3>Hp mso 15</h3>
+                <p>65,000</p>
+                <button>Order now</button>
+
+            </div>
+            <div class="oppo">
+                <img src="image/lenvo iqqq.webp" height="250px" width="200px">
+                <h3>Lenvo iqqo</h3>
+                <p>70,000</p>
+                <button>Order now</button>
+
+            </div>
+            <div class="oppo">
+                <img src="image/mackbook.webp" height="250px" width="200px">
+                <h3>Apple mackbook </h3>
+                <p>1,50,000</p>
+                <button>Order now</button>
+
+            </div>
+         </div>
+
+    </section>
+
+    <div id="about">
+
+        <div class="boot"> 
+            <h1>About us  </h1>
+
+      <p> We are your trusted destination for the latest smartphones and mobile accessories.
+       Our goal is to provide quality products at affordable prices with a smooth and easy shopping experience.
+        <br>
+       At MobileStore, you can find smartphones from popular brands, along with accessories,
+       smartwatches, tablets, power banks, phone cases, and chargers.
+       <br>
+        Our mission: Quality products, genuine prices, and customer satisfaction. </p>
+
+        </div>
+    </div>
+
+
+    
+    <footer>
+        <section class="contact" id="contact">
+         <img src="image/instagram.png"  width="50px"  height="50px">
+
+         <h2>Contact Us</h2>
+        
+        <p> Phone: +91 9818823577</p>
+
+        <p> Email: ankitk79658@gmail.com</p>
+
+        <p> Location: New Delhi, India</p>
+
+    </section>
+
+        <h4>2026 Mobile store. All Right Reserved</h4>
+    </footer>
+
+    
+
+
+
+
+
+
+</body>
+</html>
